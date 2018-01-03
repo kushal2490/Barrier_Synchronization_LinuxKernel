@@ -1,0 +1,1 @@
+obj-y := barrier_syscall.o

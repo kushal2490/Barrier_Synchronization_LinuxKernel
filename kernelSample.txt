@@ -1,0 +1,125 @@
+[  587.241595] Barrier 9 initialized in process:390 with count:5
+[  587.247441] Barrier 10 initialized in process:390 with count:20
+[  587.255608] Barrier 11 initialized in process:389 with count:5
+[  587.265075] Barrier 12 initialized in process:389 with count:20
+[  587.280462] 
+[  587.280462] 		--------[BARRIER:9] Thread : 392 Starting TIMER ------------
+[  587.288909] 
+[  587.288909] 	[BARRIER:9] Thread:392 TIMEOUT DETECTED -- current Count=1
+[  587.288909] 
+[  587.298660] 		[BARRIER:9] EntryCount = 1 -- Thread:392 --SLEEPS
+[  587.308070] 
+[  587.308070] 	[BARRIER:9] Thread:393 timed out
+[  587.308070] 
+[  587.315718] 
+[  587.315718] 	[BARRIER:9] Thread:391 timed out
+[  587.315718] 
+[  587.323339] 
+[  587.323339] 	[BARRIER:9] Thread:394 timed out
+[  587.323339] 
+[  587.340269] 
+[  587.340269] 	[BARRIER:9] Thread:395 timed out
+[  587.340269] 
+[  587.347892] 		[BARRIER:10] EntryCount = 1 -- Thread:396 --SLEEPS
+[  587.354201] 		[BARRIER:10] EntryCount = 2 -- Thread:397 --SLEEPS
+[  587.360521] 		[BARRIER:10] EntryCount = 3 -- Thread:398 --SLEEPS
+[  587.366732] 		[BARRIER:10] EntryCount = 4 -- Thread:399 --SLEEPS
+[  587.373038] 		[BARRIER:10] EntryCount = 5 -- Thread:400 --SLEEPS
+[  587.379389] 
+[  587.379389] 		--------[BARRIER:11] Thread : 410 Starting TIMER ------------
+[  587.388010] 		[BARRIER:11] EntryCount = 1 -- Thread:410 --SLEEPS
+[  587.388033] 
+[  587.388033] 	[BARRIER:11] Thread:410 TIMEOUT DETECTED -- current Count=1
+[  587.388033] 
+[  587.404034] 		[BARRIER:10] EntryCount = 6 -- Thread:401 --SLEEPS
+[  587.410332] 
+[  587.410332] 	[BARRIER:11] Thread:411 timed out
+[  587.410332] 
+[  587.418042] 		[BARRIER:10] EntryCount = 7 -- Thread:402 --SLEEPS
+[  587.424505] 		[BARRIER:10] EntryCount = 8 -- Thread:403 --SLEEPS
+[  587.430966] 		[BARRIER:10] EntryCount = 9 -- Thread:404 --SLEEPS
+[  587.437335] 		[BARRIER:10] EntryCount = 10 -- Thread:405 --SLEEPS
+[  587.443796] 		[BARRIER:12] EntryCount = 1 -- Thread:415 --SLEEPS
+[  587.450022] 		[BARRIER:10] EntryCount = 11 -- Thread:406 --SLEEPS
+[  587.456424] 		[BARRIER:12] EntryCount = 2 -- Thread:416 --SLEEPS
+[  587.463101] 		[BARRIER:10] EntryCount = 12 -- Thread:407 --SLEEPS
+[  587.469422] 		[BARRIER:12] EntryCount = 3 -- Thread:417 --SLEEPS
+[  587.475730] 		[BARRIER:10] EntryCount = 13 -- Thread:408 --SLEEPS
+[  587.482104] 		[BARRIER:12] EntryCount = 4 -- Thread:418 --SLEEPS
+[  587.488317] 		[BARRIER:10] EntryCount = 14 -- Thread:409 --SLEEPS
+[  587.494713] 		[BARRIER:12] EntryCount = 5 -- Thread:419 --SLEEPS
+[  587.503144] 		[BARRIER:12] EntryCount = 6 -- Thread:420 --SLEEPS
+[  587.509609] 		[BARRIER:12] EntryCount = 7 -- Thread:421 --SLEEPS
+[  587.515922] 		[BARRIER:10] EntryCount = 15 -- Thread:433 --SLEEPS
+[  587.522299] 		[BARRIER:12] EntryCount = 8 -- Thread:422 --SLEEPS
+[  587.528516] 		[BARRIER:10] EntryCount = 16 -- Thread:435 --SLEEPS
+[  587.534908] 		[BARRIER:10] EntryCount = 17 -- Thread:434 --SLEEPS
+[  587.541286] 		[BARRIER:10] EntryCount = 18 -- Thread:436 --SLEEPS
+[  587.547600] 		[BARRIER:12] EntryCount = 9 -- Thread:423 --SLEEPS
+[  587.553911] 		[BARRIER:10] EntryCount = 19 -- Thread:437 --SLEEPS
+[  587.560306] 		[BARRIER:12] EntryCount = 10 -- Thread:424 --SLEEPS
+[  587.566684] 
+[  587.566684] 	[BARRIER:10] EntryCount = 20 -- Thread:438 WAKING UP ALL >>>>>>>>>>>>>>>
+[  587.566684] 
+[  587.577796] 		[BARRIER:12] EntryCount = 11 -- Thread:425 --SLEEPS
+[  587.584060] 	[BARRIER:10] EntryCount = 0 -- Thread:396 WAKES
+[  587.589871] 	[BARRIER:10] EntryCount = 0 -- Thread:398 WAKES
+[  587.595717] 	[BARRIER:10] EntryCount = 0 -- Thread:397 WAKES
+[  587.601649] 		[BARRIER:12] EntryCount = 12 -- Thread:426 --SLEEPS
+[  587.607835] 	[BARRIER:10] EntryCount = 0 -- Thread:399 WAKES
+[  587.613679] 	[BARRIER:10] EntryCount = 0 -- Thread:400 WAKES
+[  587.619596] 		[BARRIER:12] EntryCount = 13 -- Thread:427 --SLEEPS
+[  587.626235] 		[BARRIER:12] EntryCount = 14 -- Thread:428 --SLEEPS
+[  587.632506] 	[BARRIER:10] EntryCount = 0 -- Thread:401 WAKES
+[  587.638422] 		[BARRIER:12] EntryCount = 15 -- Thread:429 --SLEEPS
+[  587.644712] 	[BARRIER:10] EntryCount = 0 -- Thread:402 WAKES
+[  587.650645] 		[BARRIER:12] EntryCount = 16 -- Thread:430 --SLEEPS
+[  587.656832] 	[BARRIER:10] EntryCount = 0 -- Thread:403 WAKES
+[  587.662675] 	[BARRIER:10] EntryCount = 0 -- Thread:404 WAKES
+[  587.668595] 		[BARRIER:12] EntryCount = 17 -- Thread:431 --SLEEPS
+[  587.674988] 		[BARRIER:12] EntryCount = 18 -- Thread:432 --SLEEPS
+[  587.681256] 	[BARRIER:10] EntryCount = 0 -- Thread:405 WAKES
+[  587.687834] 	[BARRIER:10] EntryCount = 0 -- Thread:406 WAKES
+[  587.693684] 	[BARRIER:9] EntryCount = 0 -- Thread:392 WAKES
+[  587.699303] 
+[  587.699303] 	[BARRIER:9] Thread:392 timed out
+[  587.699303] 
+[  587.706845] 	[BARRIER:10] EntryCount = 0 -- Thread:407 WAKES
+[  587.712671] 	[BARRIER:10] EntryCount = 0 -- Thread:408 WAKES
+[  587.718589] 		[BARRIER:12] EntryCount = 19 -- Thread:440 --SLEEPS
+[  587.725083] 
+[  587.725083] 	[BARRIER:12] EntryCount = 20 -- Thread:439 WAKING UP ALL >>>>>>>>>>>>>>>
+[  587.725083] 
+[  587.736078] 	[BARRIER:12] EntryCount = 0 -- Thread:415 WAKES
+[  587.741986] 	[BARRIER:12] EntryCount = 0 -- Thread:416 WAKES
+[  587.747791] 	[BARRIER:12] EntryCount = 0 -- Thread:417 WAKES
+[  587.753642] 	[BARRIER:12] EntryCount = 0 -- Thread:418 WAKES
+[  587.759455] 	[BARRIER:10] EntryCount = 0 -- Thread:409 WAKES
+[  587.765302] 	[BARRIER:12] EntryCount = 0 -- Thread:419 WAKES
+[  587.771123] 	[BARRIER:12] EntryCount = 0 -- Thread:420 WAKES
+[  587.776934] 	[BARRIER:12] EntryCount = 0 -- Thread:421 WAKES
+[  587.782780] 	[BARRIER:12] EntryCount = 0 -- Thread:422 WAKES
+[  587.788595] 	[BARRIER:10] EntryCount = 0 -- Thread:433 WAKES
+[  587.794444] 	[BARRIER:10] EntryCount = 0 -- Thread:434 WAKES
+[  587.800282] 	[BARRIER:10] EntryCount = 0 -- Thread:435 WAKES
+[  587.806359] 	[BARRIER:10] EntryCount = 0 -- Thread:436 WAKES
+[  587.812216] 	[BARRIER:12] EntryCount = 0 -- Thread:423 WAKES
+[  587.818028] 	[BARRIER:10] EntryCount = 0 -- Thread:437 WAKES
+[  587.823880] 	[BARRIER:12] EntryCount = 0 -- Thread:424 WAKES
+[  587.829888] 	[BARRIER:12] EntryCount = 0 -- Thread:425 WAKES
+[  587.835739] 	[BARRIER:12] EntryCount = 0 -- Thread:426 WAKES
+[  587.841560] 	[BARRIER:12] EntryCount = 0 -- Thread:427 WAKES
+[  587.847440] 	[BARRIER:12] EntryCount = 0 -- Thread:428 WAKES
+[  587.853379] 	[BARRIER:12] EntryCount = 0 -- Thread:429 WAKES
+[  587.859188] 	[BARRIER:12] EntryCount = 0 -- Thread:430 WAKES
+[  587.870142] 	[BARRIER:12] EntryCount = 0 -- Thread:431 WAKES
+[  587.876318] 	[BARRIER:12] EntryCount = 0 -- Thread:432 WAKES
+[  587.882448] 	[BARRIER:12] EntryCount = 0 -- Thread:440 WAKES
+[  587.915143] [Barrier:9] destroyed in Process:390
+[  587.919809] [Barrier:10] destroyed in Process:390
+[  587.924733] 	[BARRIER:11] EntryCount = 0 -- Thread:410 WAKES
+[  587.930523] 
+[  587.930523] 	[BARRIER:11] Thread:410 timed out
+[  587.930523] 
+[  587.965117] [Barrier:11] destroyed in Process:389
+[  587.969869] [Barrier:12] destroyed in Process:389

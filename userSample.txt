@@ -1,0 +1,154 @@
+Enter average sleep time value
+
+child process #390 created
+
+
+[BARRIER:9] initialized with timeout=10000 in Process:390 
+
+
+[BARRIER:10] initialized with timeout=0 in Process:390 
+
+[BARRIER:9]	Thread:1	entering barrier wait
+[BARRIER:9]	Thread:2	entering barrier wait
+[BARRIER:9]	Thread:0	entering barrier wait
+[BARRIER:9]	Thread:3	entering barrier wait
+[BARRIER:9]	Thread:4	entering barrier wait
+
+[BARRIER:9] 	 COUNT = 1 thread woken up  	 FOUND BARRIER BROKEN. WAITING FOR OTHER THREADS BEFORE STARTING NEXT ROUND 
+[BARRIER:10]	Thread:5	entering barrier wait
+[BARRIER:10]	Thread:6	entering barrier wait
+[BARRIER:10]	Thread:7	entering barrier wait
+[BARRIER:10]	Thread:8	entering barrier wait
+[BARRIER:10]	Thread:9	entering barrier wait
+[BARRIER:10]	Thread:10	entering barrier wait
+[BARRIER:10]	Thread:11	entering barrier wait
+[BARRIER:10]	Thread:12	entering barrier wait
+[BARRIER:10]	Thread:13	entering barrier wait
+[BARRIER:10]	Thread:14	entering barrier wait
+[BARRIER:10]	Thread:15	entering barrier wait
+[BARRIER:10]	Thread:Enter average sleep time value
+
+child process #389 created
+
+
+[BARRIER:11] initialized with timeout=10000 in Process:389 
+
+
+[BARRIER:12] initialized with timeout=0 in Process:389 
+
+[BARRIER:11]	Thread:0	entering barrier wait
+[BARRIER:11]	Thread:1	entering barrier wait
+
+[BARRIER:11] 	 COUNT = 1 thread woken up  	 FOUND BARRIER BROKEN. WAITING FOR OTHER THREADS BEFORE STARTING NEXT ROUND 
+
+[BARRIER:11] 	 COUNT = 2 thread woken up  	 FOUND BARRIER BROKEN. WAITING FOR OTHER THREADS BEFORE STARTING NEXT ROUND 
+
+[BARRIER:11] 	 COUNT = 3 thread woken up  	 FOUND BARRIER BROKEN. WAITING FOR OTHER THREADS BEFORE STARTING NEXT ROUND 
+
+[BARRIER:11] 	 COUNT = 4 thread woken up  	 FOUND BARRIER BROKEN. WAITING FOR OTHER THREADS BEFORE STARTING NEXT ROUND 
+[BARRIER:12]	Thread:5	entering barrier wait
+[BARRIER:12]	Thread:6	entering barrier wait
+[BARRIER:12]	Thread:7	entering barrier wait
+[BARRIER:12]	Thread:8	entering barrier wait
+[BARRIER:12]	Thread:9	entering barrier wait
+[BARRIER:12]	Thread:10	entering barrier wait
+[BARRIE16	entering barrier wait
+[BARRIER:10]	Thread:17	entering barrier wait
+[BARRIER:10]	Thread:18	entering barrier wait
+[BARRIER:10]	Thread:19	entering barrier wait
+[BARRIER:10]	Thread:21	entering barrier wait
+[BARRIER:10]	Thread:20	entering barrier wait
+[BARRIER:10]	Thread:22	entering barrier wait
+[BARRIER:10]	Thread:23	entering barrier wait
+[BARRIER:10]	Thread:24	entering barrier wait
+
+[BARRIER:10] 	 COUNT = 1 thread woken up  
+[BARRIER:10] 	 COUNT = 2 thread woken up  
+[BARRIER:9] 	 COUNT = 2 thread woken up  	 FOUND BARRIER BROKEN. WAITING FOR OTHER THREADS BEFORE STARTING NEXT ROUND 
+
+[BARRIER:9] 	 COUNT = 3 thread woken up  	 FOUND BARRIER BROKEN. WAITING FOR OTHER THREADS BEFORE STARTING NEXT ROUND 
+
+[BARRIER:9] 	 COUNT = 4 thread woken up  	 FOUND BARRIER BROKEN. WAITING FOR OTHER THREADS BEFORE STARTING NEXT ROUND 
+
+[BARRIER:10] 	 COUNT = 3 thread woken up  
+[BARRIER:10] 	 COUNT = 4 thread woken up  
+[BARRIER:10] 	 COUNT = 5 thread woken up  
+[BARRIER:10] 	 COUNT = 6 thread woken up  
+[BARRIER:10] 	 COUNTR:12]	Thread:11	entering barrier wait
+[BARRIER:12]	Thread:12	entering barrier wait
+[BARRIER:12]	Thread:13	entering barrier wait
+[BARRIER:12]	Thread:14	entering barrier wait
+[BARRIER:12]	Thread:15	entering barrier wait
+[BARRIER:12]	Thread:16	entering barrier wait
+[BARRIER:12]	Thread:17	entering barrier wait
+[BARRIER:12]	Thread:18	entering barrier wait
+[BARRIER:12]	Thread:19	entering barrier wait
+[BARRIER:12]	Thread:20	entering barrier wait
+[BARRIER:12]	Thread:21	entering barrier wait
+[BARRIER:12]	Thread:22	entering barrier wait
+[BARRIER:12]	Thread:24	entering barrier wait
+[BARRIER:12]	Thread:23	entering barrier wait
+
+[BARRIER:12] 	 COUNT = 1 thread woken up  
+[BARRIER:12] 	 COUNT = 2 thread woken up  
+[BARRIER:12] 	 COUNT = 3 thread woken up  
+[BARRIER:12] 	 COUNT = 4 thread woken up  
+[BARRIER:12] 	 COUNT = 5 thread woken up  
+[BARRIER:12] 	 COUNT = 6 thread woken up  
+[BARRIER:12] 	 COUNT = 7 thread woken up  
+[BARRIER:12] 	 COUNT = 8 thread woken up  
+[BARRIER:12] 	 COUNT = 9 thread woken up  
+[BARRIER:12]  = 7 thread woken up  
+[BARRIER:10] 	 COUNT = 8 thread woken up  
+[BARRIER:10] 	 COUNT = 9 thread woken up  
+[BARRIER:10] 	 COUNT = 10 thread woken up  
+[BARRIER:10] 	 COUNT = 11 thread woken up  
+[BARRIER:10] 	 COUNT = 12 thread woken up  
+[BARRIER:10] 	 COUNT = 13 thread woken up  
+[BARRIER:10] 	 COUNT = 14 thread woken up  
+[BARRIER:10] 	 COUNT = 15 thread woken up  
+[BARRIER:10] 	 COUNT = 16 thread woken up  
+[BARRIER:10] 	 COUNT = 17 thread woken up  
+[BARRIER:10] 	 COUNT = 18 thread woken up  
+[BARRIER:10] 	 COUNT = 19 thread woken up  [BARRIER:10] 	 COUNT = 20. 	 FINAL THREAD ARRIVES 
+
+---------------------------ALL THREADS OF [BARRIER:10] LEAVE ROUND 0 ---------------------------
+
+[BARRIER:9] 	 COUNT = 5. 	 FINAL THREAD ARRIVES 
+xxxxxxx [Barrier:9] WAS BROKEN BECAUSE OF TIMEOUT --> RESET successfully xxxxxxx
+
+---------------------------ALL THREADS OF [BARRIER:9] LEAVE ROUND 0 ---------------------------
+
+
+		********* initiating BARRIER DESTROY for process:390 **********
+
+	 COUNT = 10 thread woken up  
+[BARRIER:12] 	 COUNT = 11 thread woken up  
+[BARRIER:12] 	 COUNT = 12 thread woken up  
+[BARRIER:12] 	 COUNT = 13 thread woken up  
+[BARRIER:12] 	 COUNT = 14 thread woken up  
+[BARRIER:12] 	 COUNT = 15 thread woken up  
+[BARRIER:12] 	 COUNT = 16 thread woken up  
+[BARRIER:12] 	 COUNT = 17 thread woken up  
+[BARRIER:12] 	 COUNT = 18 thread woken up  
+[BARRIER:12] 	 COUNT = 19 thread woken up  [BARRIER:12] 	 COUNT = 20. 	 FINAL THREAD ARRIVES 
+
+---------------------------ALL THREADS OF [BARRIER:12] LEAVE ROUND 0 ---------------------------
+
+[BARRIER:11] 	 COUNT = 5. 	 FINAL THREAD ARRIVES 
+xxxxxxx [Barrier:11] WAS BROKEN BECAUSE OF TIMEOUT --> RESET successfully xxxxxxx
+
+---------------------------ALL THREADS OF [BARRIER:11] LEAVE ROUND 0 ---------------------------
+
+
+		********* initiating BARRIER DESTROY for process:389 **********
+
+Enter average sleep time value
+
+process:388 waiting for exit
+
+process:390 finished
+
+process:388 waiting for exit
+
+process:389 finished
